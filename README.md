@@ -7,4 +7,5 @@ Front storage with
 Store.js
 
 *Swipes enabled
+
 Demo https://play.google.com/store/apps/details?id=ru.crud.kitchensink
