@@ -1,0 +1,63 @@
+<div class="page" data-page="add">
+  <div class="navbar">
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="if-not-md">Back</span>
+        </a>
+      </div>
+      <div class="title">Create</div>
+    </div>
+  </div>
+  <div class="page-content">
+    <style type="text/css">
+      .list ul:before {
+          height: 0px;
+      }      
+      .list ul:after {
+          height: 0px;
+      }      
+    </style>
+    <div class="block">
+      <form class="list" id="my-form">
+        <ul>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Name</div>
+                <div class="item-input-wrap">
+                  <input type="text" name="name" id="name" placeholder="Name">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Desc</div>
+                <div class="item-input-wrap">
+                  <textarea class="resizable" id="desc" placeholder="Desc"></textarea>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Image</div>
+                <div class="item-input-wrap">
+                  <input type="file" id="file">
+                  <input type="hidden" name="image" id="image">
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </form>
+      <div class="block ">
+        <a class="button create button-fill" href="#">Create</a>
+      </div>      
+    </div>
+  </div>
+</div>
